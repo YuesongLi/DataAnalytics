@@ -1,7 +1,7 @@
 ####################################Kaggle competition###############################################
 
-train <- read.csv("/Users/yuesongli/pitt/data analytics/lab4/train.csv")
-test <- read.csv("/Users/yuesongli/pitt/data analytics/lab4/test.csv")
+train <- read.csv("./csv/train.csv")
+test <- read.csv("./csv/test.csv")
 #add another column to the test tbale
 test$Survived <- 0
 #combine test table and train table
